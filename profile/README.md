@@ -13,6 +13,13 @@ The **Popcorncafe** backend consists of a group of microservices written in Java
 - **Spring Cloud Gateway**: for request management and routing.
 
 Each microservice interacts with its own PostgreSQL database.
+<div>
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/java-logo-vector.png?raw=true" height="65">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/spring-logo.svg?raw=true" height="50">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/spring-cloud-logo.png?raw=true" height="50">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/postgres-logo.png?raw=true" width="60">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/docker-logo.png?raw=true" width="60">
+</div>
 
 ## Frontend
 
@@ -22,6 +29,11 @@ The **Popcorncafe** frontend comprises several single-page applications (SPAs) w
 - **Warehouse Workers Application**: An interface for managing warehouse operations.
 - **Cashiers Application**: An interface for order processing and payment.
 - **Information Displays**: These include order pickup displays and kitchen order displays.
+
+<div>
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/ts-logo.png?raw=true" height="50">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/angular-logo.png?raw=true" height="50">
+</div>
 
 ## Client Application
 
