@@ -14,12 +14,12 @@ The **Popcorncafe** backend consists of a group of microservices written in Java
 
 Each microservice interacts with its own PostgreSQL database.
 <div>
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/java-logo-vector.png?raw=true" height="65">
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/spring-logo.svg?raw=true" height="50">
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/spring-cloud-logo.png?raw=true" height="50">
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/postgres-logo.png?raw=true" width="60">
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/docker-logo.png?raw=true" width="60">
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/kuber-logo.png?raw=true" width="60">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/java-logo.png?raw=true" height="60">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/spring-logo.png?raw=true" height="60">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/spring-cloud-logo.png?raw=true" height="60">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/postgres-logo.png?raw=true" height="60">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/docker-logo.png?raw=true" height="60">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/kuber-logo.png?raw=true" height="60">
 </div>
 
 ## Frontend
@@ -32,10 +32,10 @@ The **Popcorncafe** frontend comprises several single-page applications (SPAs) w
 - **Information Displays**: These include order pickup displays and kitchen order displays.
 
 <div>
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/ts-logo.png?raw=true" height="50">
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/angular-logo.png?raw=true" height="50">
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/docker-logo.png?raw=true" width="50">
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/kuber-logo.png?raw=true" width="50">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/ts-logo.png?raw=true" height="60">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/angular-logo.png?raw=true" height="60">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/docker-logo.png?raw=true" width="60">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/kuber-logo.png?raw=true" width="60">
 </div>
 
 ## Client Application
@@ -47,10 +47,10 @@ The **Popcorncafe** frontend comprises several single-page applications (SPAs) w
 - Building orders and making payments through the bot.
 
 <div>
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/java-logo-vector.png?raw=true" height="65">
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/spring-logo.svg?raw=true" height="50">
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/tg-logo.png?raw=true" height="50">
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/docker-logo.png?raw=true" width="50">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/java-logo.png?raw=true" height="60">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/spring-logo.png?raw=true" height="60">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/tg-logo.png?raw=true" height="60">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/docker-logo.png?raw=true" height="60">
 </div>
 
 ## Installation and Running
