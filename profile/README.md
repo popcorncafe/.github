@@ -13,6 +13,16 @@ The **Popcorncafe** backend consists of a group of microservices written in Java
 - **Spring Cloud Gateway**: for request management and routing.
 
 Each microservice interacts with its own PostgreSQL database.
+<!--
+![Java](https://github.com/popcorncafe/.github/blob/main/images/logo/java-logo.png?raw=true)
+![Spting Boot](https://github.com/popcorncafe/.github/blob/main/images/logo/spring-logo.png?raw=true)
+![Spring Cloud](https://github.com/popcorncafe/.github/blob/main/images/logo/spring-cloud-logo.png?raw=true)
+![Postgres](https://github.com/popcorncafe/.github/blob/main/images/logo/postgres-logo.png?raw=true)
+![Docker](https://github.com/popcorncafe/.github/blob/main/images/logo/docker-logo.png?raw=true)
+![Kubernetes](https://github.com/popcorncafe/.github/blob/main/images/logo/kuber-logo.png?raw=true)
+
+  -->
+
 <div>
   <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/java-logo.png?raw=true" height="60">
   <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/spring-logo.png?raw=true" height="60">
@@ -22,6 +32,8 @@ Each microservice interacts with its own PostgreSQL database.
   <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/kuber-logo.png?raw=true" height="60">
 </div>
 
+---
+
 ## Frontend
 
 The **Popcorncafe** frontend comprises several single-page applications (SPAs) written in TypeScript and using the Angular framework. The main SPAs include:
@@ -30,6 +42,13 @@ The **Popcorncafe** frontend comprises several single-page applications (SPAs) w
 - **Warehouse Workers Application**: An interface for managing warehouse operations.
 - **Cashiers Application**: An interface for order processing and payment.
 - **Information Displays**: These include order pickup displays and kitchen order displays.
+  
+<!--
+![TypeScrypt](https://github.com/popcorncafe/.github/blob/main/images/logo/ts-logo.png?raw=true)
+![Angular](https://github.com/popcorncafe/.github/blob/main/images/logo/angular-logo.png?raw=true)
+![Docker](https://github.com/popcorncafe/.github/blob/main/images/logo/docker-logo.png?raw=true)
+![Kubernetes](https://github.com/popcorncafe/.github/blob/main/images/logo/kuber-logo.png?raw=true)
+-->
 
 <div>
   <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/ts-logo.png?raw=true" height="60">
@@ -38,6 +57,8 @@ The **Popcorncafe** frontend comprises several single-page applications (SPAs) w
   <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/kuber-logo.png?raw=true" width="60">
 </div>
 
+---
+
 ## Client Application
 
 **Popcorncafe** also provides a client application in the form of a Telegram bot for convenient customer interaction. Key features include:
@@ -45,6 +66,13 @@ The **Popcorncafe** frontend comprises several single-page applications (SPAs) w
 - Retrieving the nearest cafe's address based on location (longitude and latitude).
 - Accessing menus and information about available dishes.
 - Building orders and making payments through the bot.
+
+<!--
+![Java](https://github.com/popcorncafe/.github/blob/main/images/logo/java-logo.png?raw=true)
+![Spting Boot](https://github.com/popcorncafe/.github/blob/main/images/logo/spring-logo.png?raw=true)
+![Telegram](https://github.com/popcorncafe/.github/blob/main/images/logo/tg-logo.png?raw=true)
+![Docker](https://github.com/popcorncafe/.github/blob/main/images/logo/docker-logo.png?raw=true)
+-->
 
 <div>
   <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/java-logo.png?raw=true" height="60">
@@ -62,6 +90,7 @@ To run the components of **Popcorncafe**, please follow the instructions in the 
 This project is distributed under the [MIT License](LICENSE).
 
 Thank you for your interest in the **Popcorncafe** project! We hope it proves to be useful and engaging for you.
+
 <!-- 
 ## Contact
 
@@ -69,5 +98,5 @@ If you have questions or suggestions for improving the project, feel free to con
 
 - Email: [your email]
 - Website: [link to your website]
---!>
+-->
 
