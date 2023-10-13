@@ -1,18 +1,31 @@
-# Popcorncafe
+# Popcorncafe - Coffee Network Solution
 
-**Popcorncafe** is a pet project of a fictional coffee network presented in the form of repositories related to the backend, frontend, and client application.
+Welcome to Popcorncafe, a ready-made solution for a fictional coffee network designed to handle high loads. This README serves as an overview of the project's architecture. For detailed descriptions and setup instructions, please refer to each specific repository.
 
-## Backend
+## Project Overview
 
-The **Popcorncafe** backend consists of a group of microservices written in Java and utilizing the Spring Framework. These microservices use the following technologies:
+### Backend
 
-- **Spring Boot**: for creating standalone microservices.
-- **Spring Cloud**: for implementing shared infrastructure.
-- **Spring Cloud Config**: for centralized configuration management.
-- **Spring Cloud Netflix (Eureka)**: for service discovery and registration.
-- **Spring Cloud Gateway**: for request management and routing.
+Our backend is organized within a monorepository and includes a group of microservices. These services can be categorized into two main components:
 
-Each microservice interacts with its own PostgreSQL database.
+#### Environment:
+- **config-server**: Manages configuration settings.
+- **discovery-service**: Enables service discovery.
+- **gateway-service**: Acts as a gateway for external requests.
+
+#### Services:
+- **employee-service**: Handles employee-related operations.
+- **client-service**: Manages customer interactions.
+- **store-service**: Facilitates store operations.
+
+**Technology Stack**:
+- Language: Java
+- Frameworks: Spring Boot, Spring Cloud, Spring Cloud Config, Spring Cloud Netflix (Eureka), Spring Cloud Gateway, and others.
+- Databases: Each service interacts with its dedicated PostgreSQL database.
+- Data Caching: Redis is employed for caching frequently requested data.
+- Continuous Integration and Continuous Deployment (CI/CD): We've set up CI/CD using GitHub Actions. With each tagged release, our pipeline runs tests, builds, and publishes Docker images for each microservice.
+- Production Deployment: In production, we utilize Kubernetes to orchestrate the services.
+
 <!--
 ![Java](https://github.com/popcorncafe/.github/blob/main/images/logo/java-logo.png?raw=true)
 ![Spting Boot](https://github.com/popcorncafe/.github/blob/main/images/logo/spring-logo.png?raw=true)
@@ -32,17 +45,25 @@ Each microservice interacts with its own PostgreSQL database.
   <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/kuber-logo.png?raw=true" height="60">
 </div>
 
+- [Link to Backend Repository](https://github.com/popcorncafe/popcorncafe-backend)
+
 ---
 
-## Frontend
+### Frontend
 
-The **Popcorncafe** frontend comprises several single-page applications (SPAs) written in TypeScript and using the Angular framework. The main SPAs include:
+Our frontend consists of a collection of single-page applications customized for different user roles:
 
-- **HR Application**: An interface for managing HR activities.
-- **Warehouse Workers Application**: An interface for managing warehouse operations.
-- **Cashiers Application**: An interface for order processing and payment.
-- **Information Displays**: These include order pickup displays and kitchen order displays.
-  
+- **HR Application**: Tailored for HR-related functions.
+- **Warehouse Application**: Designed for warehouse employees.
+- **Cashier Application**: Manages cashier duties.
+- **Informational Displays**: Includes order pickup displays and kitchen order displays.
+
+**Technology Stack**:
+- Language: TypeScript
+- Framework: Angular
+- CI/CD: We've established CI/CD pipelines for each application to ensure up-to-date Docker images are available in their respective repositories.
+
+ 
 <!--
 ![TypeScrypt](https://github.com/popcorncafe/.github/blob/main/images/logo/ts-logo.png?raw=true)
 ![Angular](https://github.com/popcorncafe/.github/blob/main/images/logo/angular-logo.png?raw=true)
@@ -57,17 +78,28 @@ The **Popcorncafe** frontend comprises several single-page applications (SPAs) w
   <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/kuber-logo.png?raw=true" width="60">
 </div>
 
+- [Link to HR Application Repository](#)
+- [Link to Warehouse Application Repository](#)
+- [Link to Cashier Application Repository](#)
+- [Link to Informational Displays Repository](#)
+
 ---
 
-## Client Application
+### Client Application
 
-**Popcorncafe** also provides a client application in the form of a Telegram bot for convenient customer interaction. Key features include:
+Our client application is a Telegram bot designed to enhance the customer experience:
 
-- Retrieving the nearest cafe's address based on location (longitude and latitude).
-- Accessing menus and information about available dishes.
-- Building orders and making payments through the bot.
+- **Functionality**:
+  - Retrieve the nearest cafe's address based on location (longitude and latitude).
+  - Fetch menus, providing a list of available items at the selected store.
+  - Enable order assembly and payment.
 
-<!--
+**Technology Stack**:
+- Language: Java
+- Framework: Spring Framework
+- Data Management: The bot does not have a database but stores orders in a Redis cache during the selection phase.
+
+ <!--
 ![Java](https://github.com/popcorncafe/.github/blob/main/images/logo/java-logo.png?raw=true)
 ![Spting Boot](https://github.com/popcorncafe/.github/blob/main/images/logo/spring-logo.png?raw=true)
 ![Telegram](https://github.com/popcorncafe/.github/blob/main/images/logo/tg-logo.png?raw=true)
@@ -81,9 +113,13 @@ The **Popcorncafe** frontend comprises several single-page applications (SPAs) w
   <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/docker-logo.png?raw=true" height="60">
 </div>
 
-## Installation and Running
+---
 
-To run the components of **Popcorncafe**, please follow the instructions in the respective backend, frontend, and client application repositories.
+## Getting Started
+
+For detailed instructions on setting up and running each component of Popcorncafe, please refer to the respective repository's README.
+
+Thank you for exploring Popcorncafe, and we look forward to your contributions and feedback.
 
 ## License
 
@@ -99,4 +135,3 @@ If you have questions or suggestions for improving the project, feel free to con
 - Email: [your email]
 - Website: [link to your website]
 -->
-
