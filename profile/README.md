@@ -26,23 +26,13 @@ Our backend is organized within a monorepository and includes a group of microse
 - Continuous Integration and Continuous Deployment (CI/CD): We've set up CI/CD using GitHub Actions. With each tagged release, our pipeline runs tests, builds, and publishes Docker images for each microservice.
 - Production Deployment: In production, we utilize Kubernetes to orchestrate the services.
 
-<!--
-![Java](https://github.com/popcorncafe/.github/blob/main/images/logo/java-logo.png?raw=true)
-![Spting Boot](https://github.com/popcorncafe/.github/blob/main/images/logo/spring-logo.png?raw=true)
-![Spring Cloud](https://github.com/popcorncafe/.github/blob/main/images/logo/spring-cloud-logo.png?raw=true)
-![Postgres](https://github.com/popcorncafe/.github/blob/main/images/logo/postgres-logo.png?raw=true)
-![Docker](https://github.com/popcorncafe/.github/blob/main/images/logo/docker-logo.png?raw=true)
-![Kubernetes](https://github.com/popcorncafe/.github/blob/main/images/logo/kuber-logo.png?raw=true)
-
-  -->
-
 <div>
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/java-logo.png?raw=true" height="60">
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/spring-logo.png?raw=true" height="60">
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/spring-cloud-logo.png?raw=true" height="60">
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/postgres-logo.png?raw=true" height="60">
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/docker-logo.png?raw=true" height="60">
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/kuber-logo.png?raw=true" height="60">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/java-logo.png?raw=true" height="45">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/spring-logo.png?raw=true" height="45">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/spring-cloud-logo.png?raw=true" height="45">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/postgres-logo.png?raw=true" height="45">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/docker-logo.png?raw=true" height="45">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/kuber-logo.png?raw=true" height="45">
 </div>
 
 - [Link to Backend Repository](https://github.com/popcorncafe/popcorncafe-backend)
@@ -63,19 +53,11 @@ Our frontend consists of a collection of single-page applications customized for
 - Framework: Angular
 - CI/CD: We've established CI/CD pipelines for each application to ensure up-to-date Docker images are available in their respective repositories.
 
- 
-<!--
-![TypeScrypt](https://github.com/popcorncafe/.github/blob/main/images/logo/ts-logo.png?raw=true)
-![Angular](https://github.com/popcorncafe/.github/blob/main/images/logo/angular-logo.png?raw=true)
-![Docker](https://github.com/popcorncafe/.github/blob/main/images/logo/docker-logo.png?raw=true)
-![Kubernetes](https://github.com/popcorncafe/.github/blob/main/images/logo/kuber-logo.png?raw=true)
--->
-
 <div>
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/ts-logo.png?raw=true" height="60">
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/angular-logo.png?raw=true" height="60">
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/docker-logo.png?raw=true" width="60">
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/kuber-logo.png?raw=true" width="60">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/ts-logo.png?raw=true" height="45">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/angular-logo.png?raw=true" height="45">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/docker-logo.png?raw=true" width="45">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/kuber-logo.png?raw=true" width="45">
 </div>
 
 - [Link to HR Application Repository](#)
@@ -99,18 +81,11 @@ Our client application is a Telegram bot designed to enhance the customer experi
 - Framework: Spring Framework
 - Data Management: The bot does not have a database but stores orders in a Redis cache during the selection phase.
 
- <!--
-![Java](https://github.com/popcorncafe/.github/blob/main/images/logo/java-logo.png?raw=true)
-![Spting Boot](https://github.com/popcorncafe/.github/blob/main/images/logo/spring-logo.png?raw=true)
-![Telegram](https://github.com/popcorncafe/.github/blob/main/images/logo/tg-logo.png?raw=true)
-![Docker](https://github.com/popcorncafe/.github/blob/main/images/logo/docker-logo.png?raw=true)
--->
-
 <div>
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/java-logo.png?raw=true" height="60">
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/spring-logo.png?raw=true" height="60">
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/tg-logo.png?raw=true" height="60">
-  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/docker-logo.png?raw=true" height="60">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/java-logo.png?raw=true" height="45">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/spring-logo.png?raw=true" height="45">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/tg-logo.png?raw=true" height="45">
+  <img src="https://github.com/popcorncafe/.github/blob/main/images/logo/docker-logo.png?raw=true" height="45">
 </div>
 
 ---
