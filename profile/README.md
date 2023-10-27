@@ -19,7 +19,7 @@ Our backend is organized within a monorepository and includes a group of microse
 - **store-service**: Facilitates store operations.
 
 **Technology Stack**:
-- Language: Java
+- Language: Java JDK 21 (LTS)
 - Frameworks: Spring Boot, Spring Cloud, Spring Cloud Config, Spring Cloud Netflix (Eureka), Spring Cloud Gateway, and others.
 - Databases: Each service interacts with its dedicated PostgreSQL database.
 - Data Caching: Redis is employed for caching frequently requested data.
